@@ -3,27 +3,26 @@
     <head>
         <link rel="stylesheet" href="css/styles.css">
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Account Login</title>
     </head>
-    <body>
-        <div class="center">
+    <body class="logincenter">
+        <div>
             <form action="">
-                <label for="fname">Bitte Ihren Benutzernamen eingeben</label>
+                <label for="fname">Username (max. 11 character)</label>
                 <br>
                 <br>
-                <input type="text" id="fname">
+                <input type="text" id="fname" maxlength="11">
                 <br>
                 <br>
-                <label for="password">Bitte Ihr Passwort eingeben</label>
+                <label for="password">Password (8 to 11 characters)</label>
                 <br>
                 <br>
-                <input type="password" id="password">
+                <input type="password" id="password" maxlength="11" minlength="8">
                 <br>
                 <br>
                 <br>
-                <button type="submit"><a id="submit" href="index.html">Submit</a></button>
+                <button type="submit"><a id="submit" href="main.html">Submit</a></button>
             </form>
         </div>
         <script>

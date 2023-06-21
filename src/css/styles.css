@@ -16,6 +16,13 @@ body {
     color: black;
 }
 
+/*Account Login*/
+.logincenter {
+    margin-top: 250px;
+    text-align: center;
+}
+
+/*Site 1*/
 /* Navbar */
 .navbar {
     position: relative;
