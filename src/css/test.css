@@ -1,4 +1,3 @@
-/* All */
 * {
     margin: 0;
     padding: 0;
@@ -62,10 +61,28 @@ body {
     float: right;
 }
 
+/*main*/
+.test {
+    padding-top: 1cm;
+    padding-left: 20%;
+}
+
+/* Footer */
+.mainFooter {
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    margin-bottom: 30px;
 }
 
 .switch {
@@ -138,19 +155,4 @@ input:checked + .slider:before {
 .moon-icon::before {
     content: "🌙"; /* Unicode for moon icon */
     font-size: 20px;
-}
-
-
-/*main*/
-.test {
-    padding-top: 1cm;
-    padding-left: 20%;
-}
-
-/* Footer */
-.mainFooter {
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    bottom: 0;
 }
