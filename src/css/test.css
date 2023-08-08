@@ -57,6 +57,11 @@ body {
   float: right;
 }
 
+.fa-solid {
+  margin-top: 8%;
+  margin-right: 0.2cm;
+}
+
 
 /* main */
 #forestfog {
@@ -67,6 +72,11 @@ body {
 .test {
   padding-top: 1.5cm;
   padding-left: 3cm;
+}
+
+#testh4 {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 
