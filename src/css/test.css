@@ -70,15 +70,22 @@ body {
 }
 
 .test {
-  padding-top: 1.5cm;
-  padding-left: 3cm;
+  padding-top: 1cm;
+  padding-left: 15cm;
+}
+
+.test h4:hover {
+  cursor: default;
+}
+
+.test p:hover {
+  cursor: default;
 }
 
 #testh4 {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-
 
 #line {
   width: 5cm;
@@ -92,4 +99,8 @@ body {
   position: sticky;
   bottom: 0;
   color: black;
+}
+
+.mainFooter :hover {
+  cursor: default;
 }
